@@ -1,0 +1,213 @@
+/* line 8, Kohwope/style2.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif; }
+
+/* line 46, Kohwope/style2.scss */
+.login, .register {
+  padding: 0 60px;
+  margin-top: 70px; }
+  /* line 50, Kohwope/style2.scss */
+  .login .form .card, .register .form .card {
+    border: 1px solid #dfb234;
+    padding: 10px 20px 10px 20px;
+    box-shadow: none;
+    height: 330px; }
+    /* line 55, Kohwope/style2.scss */
+    .login .form .card h1, .register .form .card h1 {
+      margin: 0;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 600;
+      padding-bottom: 5px; }
+    /* line 64, Kohwope/style2.scss */
+    .login .form .card form, .register .form .card form {
+      /* label color */
+      /* label focus color */
+      /* label underline focus color */
+      /* valid color */
+      /* invalid color */
+      /* icon prefix focus color */ }
+      /* line 66, Kohwope/style2.scss */
+      .login .form .card form .input-field label, .register .form .card form .input-field label {
+        color: #000;
+        font-weight: 600; }
+      /* line 70, Kohwope/style2.scss */
+      .login .form .card form .input-field input, .register .form .card form .input-field input {
+        border-bottom: 2px solid #dfb234; }
+      /* line 74, Kohwope/style2.scss */
+      .login .form .card form .input-field input[type=text]:focus + label, .register .form .card form .input-field input[type=text]:focus + label {
+        color: #dfb234; }
+      /* line 78, Kohwope/style2.scss */
+      .login .form .card form .input-field input[type=text]:focus, .register .form .card form .input-field input[type=text]:focus {
+        border-bottom: 2px solid #dfb234;
+        box-shadow: 0 1px 0 0 #000; }
+      /* line 83, Kohwope/style2.scss */
+      .login .form .card form .input-field input[type=text].valid, .register .form .card form .input-field input[type=text].valid {
+        border-bottom: 2px solid #dfb234;
+        box-shadow: 0 1px 0 0 #000; }
+      /* line 88, Kohwope/style2.scss */
+      .login .form .card form .input-field input[type=text].invalid, .register .form .card form .input-field input[type=text].invalid {
+        border-bottom: 2px solid #dfb234;
+        box-shadow: 0 1px 0 0 #000; }
+      /* line 93, Kohwope/style2.scss */
+      .login .form .card form .input-field .prefix.active, .register .form .card form .input-field .prefix.active {
+        color: #dfb234; }
+    /* line 98, Kohwope/style2.scss */
+    .login .form .card a button, .register .form .card a button {
+      background-color: transparent;
+      padding: 8px;
+      width: 30%;
+      color: #021b79;
+      font-weight: 700;
+      height: 40px;
+      float: right;
+      border: 2px solid #021b79;
+      border-radius: 5px; }
+  /* line 115, Kohwope/style2.scss */
+  .login .form a > p, .register .form a > p {
+    color: #333;
+    font-weight: 600; }
+  /* line 121, Kohwope/style2.scss */
+  .login .reg .card, .register .reg .card {
+    height: auto;
+    box-shadow: none;
+    margin-top: 80px; }
+    /* line 125, Kohwope/style2.scss */
+    .login .reg .card .card-content, .register .reg .card .card-content {
+      text-align: center;
+      padding-left: 2px;
+      padding-right: 2px; }
+      /* line 129, Kohwope/style2.scss */
+      .login .reg .card .card-content p, .register .reg .card .card-content p {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center; }
+        /* line 133, Kohwope/style2.scss */
+        .login .reg .card .card-content p span, .register .reg .card .card-content p span {
+          color: #dfb234;
+          font-weight: 700; }
+      /* line 138, Kohwope/style2.scss */
+      .login .reg .card .card-content button, .register .reg .card .card-content button {
+        background-color: transparent;
+        padding: 8px;
+        width: 30%;
+        color: #021b79;
+        font-weight: 700;
+        height: 40px;
+        border: 2px solid #021b79;
+        border-radius: 5px; }
+  @media screen and (max-width: 600px) {
+    /* line 46, Kohwope/style2.scss */
+    .login, .register {
+      padding: 0 20px;
+      margin-top: 30px; }
+      /* line 157, Kohwope/style2.scss */
+      .login .form .card, .register .form .card {
+        padding-top: 10px;
+        height: 300px; }
+        /* line 161, Kohwope/style2.scss */
+        .login .form .card form .row, .register .form .card form .row {
+          margin-bottom: 0; }
+        /* line 166, Kohwope/style2.scss */
+        .login .form .card a button, .register .form .card a button {
+          margin-top: 10px; }
+      /* line 173, Kohwope/style2.scss */
+      .login .reg .card, .register .reg .card {
+        margin-top: 20px; }
+        /* line 175, Kohwope/style2.scss */
+        .login .reg .card .card-content, .register .reg .card .card-content {
+          padding: 5px; } }
+
+/* line 182, Kohwope/style2.scss */
+.register {
+  margin-top: 60px; }
+  /* line 186, Kohwope/style2.scss */
+  .register .form .card {
+    height: 420px;
+    padding: 10px 20px 10px 20px; }
+  /* line 191, Kohwope/style2.scss */
+  .register .btn {
+    background-color: transparent;
+    padding: 1px 8px;
+    width: 30%;
+    color: #021b79;
+    font-weight: 700;
+    float: right;
+    box-shadow: none;
+    text-transform: capitalize;
+    height: 40px;
+    border: 2px solid #021b79;
+    border-radius: 5px; }
+  @media screen and (max-width: 600px) {
+    /* line 182, Kohwope/style2.scss */
+    .register {
+      margin-top: 20px; }
+      /* line 209, Kohwope/style2.scss */
+      .register .form .card {
+        height: 340px; } }
+
+/* line 218, Kohwope/style2.scss */
+.profile-completion {
+  padding: 0 150px; }
+  /* line 221, Kohwope/style2.scss */
+  .profile-completion .welcome .card {
+    box-shadow: none; }
+    /* line 223, Kohwope/style2.scss */
+    .profile-completion .welcome .card .card-content {
+      padding-left: 0;
+      padding-right: 0; }
+      /* line 226, Kohwope/style2.scss */
+      .profile-completion .welcome .card .card-content .card-title {
+        font-size: 17px;
+        font-weight: 600; }
+        /* line 229, Kohwope/style2.scss */
+        .profile-completion .welcome .card .card-content .card-title b {
+          color: #dfb234; }
+        /* line 232, Kohwope/style2.scss */
+        .profile-completion .welcome .card .card-content .card-title i {
+          font-weight: 700; }
+  /* line 240, Kohwope/style2.scss */
+  .profile-completion .profile .card {
+    box-shadow: none; }
+    /* line 245, Kohwope/style2.scss */
+    .profile-completion .profile .card .card-content p {
+      font-weight: 700;
+      text-align: right; }
+      /* line 248, Kohwope/style2.scss */
+      .profile-completion .profile .card .card-content p span {
+        color: #dfb234;
+        padding: 10px;
+        border: 3px solid #dfb234;
+        border-radius: 100%; }
+  @media screen and (max-width: 600px) {
+    /* line 218, Kohwope/style2.scss */
+    .profile-completion {
+      padding: 0 20px; }
+      /* line 262, Kohwope/style2.scss */
+      .profile-completion .welcome .card .card-content {
+        padding: 0;
+        float: left; }
+        /* line 265, Kohwope/style2.scss */
+        .profile-completion .welcome .card .card-content .card-title {
+          font-size: 13px; }
+      /* line 273, Kohwope/style2.scss */
+      .profile-completion .profile .card .card-content {
+        padding-left: 0; }
+        /* line 275, Kohwope/style2.scss */
+        .profile-completion .profile .card .card-content p {
+          font-size: 12px;
+          text-align: left; } }
+
+/* line 285, Kohwope/style2.scss */
+.down {
+  width: 100%;
+  height: 60px;
+  margin-top: 50px;
+  background: linear-gradient(rgba(12, 115, 162, 0.7), rgba(0, 175, 239, 0.5)); }
+
+/*# sourceMappingURL=style2.css.map */
