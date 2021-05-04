@@ -367,7 +367,7 @@ header {
             margin-top: 10px; }
         /* line 432, ../../Users/omole grace/Documents/Kohwope/style.scss */
         #banner .banner-caption .text .card button, #banner3 .banner-caption .text .card button {
-          width: 45%;
+          width: 55%;
           font-size: 13px;
           margin-top: 10px; }
         /* line 437, ../../Users/omole grace/Documents/Kohwope/style.scss */
@@ -936,10 +936,21 @@ nav {
     width: 150px;
     margin: 0 auto; }
   /* line 1057, ../../Users/omole grace/Documents/Kohwope/style.scss */
+  .known-for .famous .card{
+    height:200px;
+    text-align: center;
+    padding:10px;
+    
+  }
+  .known-for .famous .card p{
+    font-size:13px;
+  }
   .known-for .famous .card .card-title {
     text-align: center;
     font-weight: 600;
+    font-size:20px;
     margin-top: 0;
+    
     color: #dfb234; }
     /* line 1062, ../../Users/omole grace/Documents/Kohwope/style.scss */
     .known-for .famous .card .card-title span {
